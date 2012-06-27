@@ -1,0 +1,99 @@
+/* StuntCoders */
+* {
+	margin: 0;
+	padding: 0;
+}
+
+/* -- FONTS -- */
+@font-face { font-family:'MuseoSans300'; src:url('fonts/MuseoSans-300.otf'); }
+@font-face { font-family:'MuseoSans700'; src:url('fonts/MuseoSans_700.otf'); }
+@font-face { font-family:'MuseoSans900'; src:url('fonts/MuseoSans_900.otf'); }
+@font-face { font-family:'Museo300'; src:url('fonts/Museo300-Regular.otf'); }
+@font-face { font-family:'Museo500'; src:url('fonts/Museo500-Regular.otf'); }
+@font-face { font-family:'Museo900'; src:url('fonts/Museo900-Regular.otf'); }
+
+body {
+	background: grey url(img/background-body.jpg);	
+	font: 12px/14px MuseoSans300, Arial, Verdana, Geneva, sans-serif;
+}
+
+div#wrapper {
+	width: 815px;
+	margin: 0 auto;
+}
+
+/* Header */
+header {
+	margin: 0;
+	padding: 0; 
+	width: 100%;
+	background: url(img/background-header.png) top center no-repeat;
+	position: relative;
+}	
+
+header h1 {
+	padding: 50px; 
+	background-position: center; 
+}
+
+
+/* SIDE-MENU */
+
+#side-menu {
+	position: absolute;
+	top: 55px;
+	left: 486px;
+	color: #fff;
+}
+
+#side-menu li {
+	float: left;
+	margin-left:10px;
+	list-style:none;
+	text-decoration: none; 
+	font-size: 19px; 
+}
+	
+#side-menu a {
+	padding: 5px; 
+	text-shadow: 1px 1px 1px #2b2b2b;
+	color: #fff;
+	font: 16px/14px "Museo300";
+	list-style: none; 
+	text-decoration: none; 
+	
+}
+
+#side-menu a:hover {
+	color: #96d775;
+}	
+
+/* MAIN-MENU */
+
+#main-menu {
+	position: absolute; 
+	top: 97px; 
+	left: 41px;
+	border-bottom: 1px solid white;
+}
+
+#main-menu li {
+	margin: 0 0 25px 0; 
+	float: left; 
+	padding: 10px; 	
+	text-decoration: none; 
+	list-style: none;
+	font-size: 22px;
+}
+
+#main-menu li a {
+	text-shadow: 1px 1px 1px #2b2b2b;
+	color: #fff;
+	list-style: none; 
+	text-decoration: none; 
+	padding: 5px; 
+}	
+
+#main-menu li a:hover{
+	color: #96d775;
+}
