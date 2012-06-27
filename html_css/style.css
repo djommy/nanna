@@ -13,7 +13,9 @@
 @font-face { font-family:'Museo900'; src:url('fonts/Museo900-Regular.otf'); }
 
 body {
-	background: grey url(img/background-body.jpg);	
+	background: url(img/background-body.jpg);
+	background-size: cover;
+	background-attachment: fixed;
 	font: 12px/14px MuseoSans300, Arial, Verdana, Geneva, sans-serif;
 }
 
