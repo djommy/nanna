@@ -46,6 +46,7 @@ header h1 {
 	top: 55px;
 	left: 486px;
 	color: #fff;
+	text-transform: uppercase; 
 }
 
 #side-menu li {
@@ -70,6 +71,8 @@ header h1 {
 	color: #96d775;
 }	
 
+
+
 /* MAIN-MENU */
 
 #main-menu {
@@ -77,6 +80,7 @@ header h1 {
 	top: 97px; 
 	left: 41px;
 	border-bottom: 1px solid white;
+	text-transform: uppercase;
 }
 
 #main-menu li {
@@ -97,5 +101,20 @@ header h1 {
 }	
 
 #main-menu li a:hover{
-	color: #96d775;
+	/*color: #96d775;*/
+	font-family: Museo300;
+	font-weight: bold;
 }
+
+/* ARTICLE */
+#content {
+	border: 1px solid black; 
+	position: inherit;
+	top: 200px; 
+	left: 41px;
+	width: 815px;
+	height: 597px;
+	display: block; 
+	background: rgba (0,0,0, 0.6);
+}
+	
