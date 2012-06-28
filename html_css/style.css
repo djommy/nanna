@@ -64,14 +64,12 @@ header h1 {
 	color: #fff;
 	font: 16px/14px "Museo300";
 	list-style: none;
-	text-decoration: none;
-	
+	text-decoration: none;	
 }
 
 #side-menu a:hover {
 	color: #96d775;
 }	
-
 
 
 /* MAIN-MENU */
@@ -83,14 +81,13 @@ header h1 {
 	border-bottom: 1px solid white;
 	text-transform: uppercase;
 	width: 770px;
-	height: 50px;
-
+	height: 58px;
 }
 
 #main-menu li {
 	margin: 0;
 	float: left;
-	padding: 10px 10px 35px 10px;
+	padding: 16px 10px 28px 10px;
 	text-decoration: none;
 	list-style: none;
 	font-size: 22px;
@@ -108,19 +105,16 @@ header h1 {
 #main-menu li:hover{
 	background:  url(img/cvetic.png) no-repeat;
 	background-position: bottom;
-	
-	}
+}
 
 /* CONTENT */
 div#content {
-	
+	margin-top: 20px;
 	border: 1px solid black; 
+	background: rgba(0, 0, 0, 0.6);
 	border-top-left-radius: 15px;
 	border-top-right-radius: 15px;
-	position: absolute;
-	top: 185px; 
-	left: 387px;
-	width: 815px;
-	height: 597px;
+	width: 100%;
+	min-height: 600px;
 }
 	
