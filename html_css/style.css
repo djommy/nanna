@@ -1,16 +1,22 @@
-/* StuntCoders */
+/* STUNTCODERS */
+
+/* RESET */
+
 * {
 	margin: 0;
 	padding: 0;
 }
 
-/* -- FONTS -- */
+/* FONTS */
+
 @font-face { font-family:'MuseoSans300';src:url('fonts/MuseoSans-300.otf');}
 @font-face { font-family:'MuseoSans700';src:url('fonts/MuseoSans_700.otf');}
 @font-face { font-family:'MuseoSans900';src:url('fonts/MuseoSans_900.otf');}
 @font-face { font-family:'Museo300';src:url('fonts/Museo300-Regular.otf');}
 @font-face { font-family:'Museo500';src:url('fonts/Museo500-Regular.otf');}
 @font-face { font-family:'Museo900';src:url('fonts/Museo900-Regular.otf');}
+
+/* BODY */
 
 body {
 	background: url(img/background-body.jpg);
@@ -19,12 +25,15 @@ body {
 	font: 12px/14px MuseoSans300, Arial, Verdana, Geneva, sans-serif;
 }
 
+/* WRAPPER */
+
 div#wrapper {
 	width: 815px;
 	margin: 0 auto;
 }
 
-/* Header */
+/* HEADER */
+
 header {
 	margin: 0;
 	padding: 0;
@@ -103,18 +112,21 @@ header h1 {
 }	
 
 #main-menu li:hover{
-	background:  url(img/cvetic.png) no-repeat;
+	background: url(img/cvetic.png) no-repeat;
 	background-position: bottom;
 }
 
 /* CONTENT */
+
 div#content {
 	margin-top: 20px;
-	border: 1px solid black; 
+	border: 1px transparent black; 
 	background: rgba(0, 0, 0, 0.6);
-	border-top-left-radius: 15px;
-	border-top-right-radius: 15px;
+	border-top-left-radius: 18px;
+	border-top-right-radius: 18px;
 	width: 100%;
 	min-height: 600px;
 }
+
+
 	
