@@ -68,7 +68,7 @@ header h1 {
 }
 
 #side-menu a:hover {
-	color: #96d775;
+	text-shadow: 1px 1px 1px #fff;
 }	
 
 
