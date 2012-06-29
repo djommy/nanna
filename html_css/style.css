@@ -128,5 +128,43 @@ div#content {
 	min-height: 600px;
 }
 
+/* SOCIAL */
+h2 {
+	position: absolute; 
+	top: 23px; 
+	left: 648px; 
+	font: 14px/14px MuseoSans300, Arial, Verdana, Geneva, sans-serif;
+	color: #bbb; 
+}	
 
+
+#social .facebook {
+	position: absolute;
+	top: 20px; 
+	left: 744px;
+	background: url(img/facebook.png) 0px 0px no-repeat;
+	display: block; 
+	height: 22px; 
+	width: 22px; 
+	text-indent: -9999px; 
+}	
+
+#social .facebook:hover {
+	background-position: 0px -22px; 
+}	
+
+#social .twitter {
+	position: absolute;
+	top: 20px; 
+	left: 768px;
+	background: url(img/twitter.png) 0px 0px no-repeat;
+	display: block; 
+	height: 22px; 
+	width: 22px; 
+	text-indent: -9999px; 
+}
+
+#social .twitter:hover {
+	background-position: 0px -22px; 
+}	
 	
