@@ -166,7 +166,7 @@ p {
 }	
 
 #hmain-menu li a {
-	text-shadow: 1px 1px 1px #2b2b2b;
+	text-shadow: 2px 1px 1px #000;
 	color: #fff;
 	list-style: none;
 	text-decoration: none;
