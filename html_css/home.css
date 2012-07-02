@@ -37,7 +37,7 @@ div#wrapper {
 #hcontent {
 	width: 100%; 
 	border: 1px transparent black; 
-	height: 488px; 
+	min-height: 500px; 
 	background: rgba(0, 0, 0, 0.6); 
 	border-bottom-left-radius: 18px;
 	border-bottom-right-radius: 18px; 
@@ -176,12 +176,10 @@ p {
 /*FOOTER CONTENT*/
 
 #footer-content {
-	width: 815px; 
-	position: absolute; 
-	top: 627px; 
-	left: 385px; 
+	width: auto; 
+	margin: 137px 0 0 0;  
 	border: 1px transparent black; 
-	height: 150px; 
+	min-height: 150px; 
 	background: rgba(0, 0, 0, 0.6); 
 	border-top-left-radius: 18px;
 	border-top-right-radius: 18px; 
