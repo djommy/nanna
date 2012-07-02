@@ -1,14 +1,12 @@
 /* STUNTCODERS */
 
 /* RESET */
-
 * {
 	margin: 0;
 	padding: 0;
 }
 
 /* FONTS */
-
 @font-face { font-family:'MuseoSans300';src:url('fonts/MuseoSans-300.otf');}
 @font-face { font-family:'MuseoSans700';src:url('fonts/MuseoSans_700.otf');}
 @font-face { font-family:'MuseoSans900';src:url('fonts/MuseoSans_900.otf');}
@@ -17,7 +15,6 @@
 @font-face { font-family:'Museo900';src:url('fonts/Museo900-Regular.otf');}
 
 /* BODY */
-
 body {
 	background: url(img/background-body.jpg);
 	background-size: cover;
@@ -25,23 +22,27 @@ body {
 	font: 12px/14px MuseoSans300, Arial, Verdana, Geneva, sans-serif;
 }
 
-/* WRAPPER */
+#top-background {
+	position:absolute;
+	width:100%;
+	height:95px;
+	background: url(img/background-header.png) top center no-repeat;
+}
 
+/* WRAPPER */
 div#wrapper {
 	width: 815px;
 	margin: 0 auto;
 }
 
 /* HEADER */
-
 header {
 	margin: 0;
 	padding: 0;
 	width: 100%;
 	height: 160px;
-	background: url(img/background-header.png) top center no-repeat;
 	position: relative;
-}	
+}
 
 header h1 {
 	padding: 50px;
@@ -50,7 +51,6 @@ header h1 {
 
 
 /* SIDE-MENU */
-
 #side-menu {
 	position: absolute;
 	top: 55px;
@@ -82,7 +82,6 @@ header h1 {
 
 
 /* MAIN-MENU */
-
 #main-menu {
 	position: absolute;
 	bottom: 0;
@@ -109,18 +108,17 @@ header h1 {
 	list-style: none;
 	text-decoration: none;
 	padding: 5px;
-}	
+}
 
-#main-menu li:hover{
+#main-menu li:hover {
 	background: url(img/cvetic.png) no-repeat;
 	background-position: bottom;
 }
 
 /* CONTENT */
-
 div#content {
 	margin-top: 20px;
-	border: 1px transparent black; 
+	border: 1px transparent black;
 	background: rgba(0, 0, 0, 0.6);
 	border-top-left-radius: 18px;
 	border-top-right-radius: 18px;
@@ -129,45 +127,41 @@ div#content {
 }
 
 /* SOCIAL */
-
 h2 {
-	position: absolute; 
-	top: 23px; 
-	left: 648px; 
+	position: absolute;
+	top: 23px;
+	left: 648px;
 	font: 14px/14px MuseoSans300, Arial, Verdana, Geneva, sans-serif;
-	color: #bbb; 
-}	
-
+	color: #bbb;
+}
 
 #social .facebook {
 	position: absolute;
-	top: 20px; 
+	top: 20px;
 	left: 744px;
 	background: url(img/facebook.png) 0px 0px no-repeat;
-	display: block; 
-	height: 22px; 
-	width: 22px; 
-	text-indent: -9999px; 
-}	
-
-
+	display: block;
+	height: 22px;
+	width: 22px;
+	text-indent: -9999px;
+}
 
 #social .facebook:hover {
-	background-position: 0px -22px; 
-}	
+	background-position: 0px -22px;
+}
 
 #social .twitter {
 	position: absolute;
-	top: 20px; 
+	top: 20px;
 	left: 768px;
 	background: url(img/twitter.png) 0px 0px no-repeat;
-	display: block; 
-	height: 22px; 
-	width: 22px; 
-	text-indent: -9999px; 
+	display: block;
+	height: 22px;
+	width: 22px;
+	text-indent: -9999px;
 }
 
 #social .twitter:hover {
-	background-position: 0px -22px; 
-}	
+	background-position: 0px -22px;
+}
 	

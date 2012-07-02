@@ -1,14 +1,12 @@
 /* HOMEPAGE */
 
 /* RESET */
-
 * {
 	margin: 0; 
 	padding: 0; 
 }	
 
 /* FONTS */
-
 @font-face { font-family:'MuseoSans300';src:url('fonts/MuseoSans-300.otf');}
 @font-face { font-family:'MuseoSans700';src:url('fonts/MuseoSans_700.otf');}
 @font-face { font-family:'MuseoSans900';src:url('fonts/MuseoSans_900.otf');}
@@ -17,7 +15,6 @@
 @font-face { font-family:'Museo900';src:url('fonts/Museo900-Regular.otf');}
 
 /* BODY */
-
 body {
 	background: url(img/background-body.jpg);
 	background-size: cover;
@@ -26,25 +23,23 @@ body {
 }
 
 /* WRAPPER */
-
 div#wrapper {
-	width: 815px; 
-	margin: 0 auto; 
-}	
+	width: 815px;
+	margin: 0 auto;
+}
 
 /* CONTENT DIV 1 */
-		
 #hcontent {
 	width: 100%; 
 	border: 1px transparent black; 
 	min-height: 500px; 
 	background: rgba(0, 0, 0, 0.6); 
 	border-bottom-left-radius: 18px;
-	border-bottom-right-radius: 18px; 
+	border-bottom-right-radius: 18px;
+	position: relative;
 }
 
 /* HEADER NANNA */
-
 h1 {
 	position: relative; 
 	top: 0px; 
@@ -56,28 +51,28 @@ h1 {
 }	
 	
 /* PARAGRAF */
-
-p {
-	color: #ccc; 
+#hcontent-p {
+	color: #ccc;
 	border-top: 1px solid #888;
-	border-bottom: 1px solid #888; 
-	padding: 5px; 
+	border-bottom: 1px solid #888;
+	padding: 5px;
 	margin: auto;
-	width: 384px; 
-	height: 150px; 
+	width: 384px;
+	min-height: 90px;
+	padding: 30px 0 30px 0;
 	font-family: MuseoSans500;
-	font-style: italic; 
-	font-size: 18px; 
-	text-align: center;  
-}	
+	font-style: italic;
+	font-size: 18px;
+	text-align: center;
+	vertical-align: middle;
+}
 
 
 /* SOCIAL */
-
 #homesocial .homefacebook {
 	position: absolute;
 	top: 91px; 
-	left: 1068px;
+	right: 105px;
 	background: url(img/homefacebook.png) 0px 0px no-repeat;
 	display: block; 
 	height: 30px; 
@@ -94,7 +89,7 @@ p {
 #homesocial .hometwitter {
 	position: absolute;
 	top: 91px; 
-	left: 1100px;
+	right: 70px;
 	background: url(img/hometwitter.png) 0px 0px no-repeat;
 	display: block; 
 	height: 30px; 
@@ -106,18 +101,15 @@ p {
 	background-position: 0px -30px; 
 }
 	
-/* SMENU */	
-
+/* SMENU */
 #smenu {
-	position: absolute; 
-	top: 402px; 
-	left: 645px;
-	text-transform: uppercase; 
-	color: #ccc; 
+	text-transform: uppercase;
+	color: #ccc;
 	background: url(img/flower3.png) no-repeat;
-	background-position: 70px 25px; 
-	height: 81px; 
-	width: 50%; 
+	background-position: 70px 25px;
+	height: 81px;
+	width: 318px;
+	margin: 20px auto 0;
 }
 
 #smenu li {
@@ -143,16 +135,13 @@ p {
 
 
 /* MAIN MENU */
-	
 #hmain-menu {
-	position: absolute;
-	top: 500px;
-	left: 420px;
 	background: url(img/flower2.png) no-repeat;
 	background-position: 295px 45px; 
 	text-transform: uppercase;
 	width: 770px;
 	height: 93px;
+	margin: 30px auto;
 }
 
 #hmain-menu li {
@@ -174,13 +163,12 @@ p {
 }	
 
 /*FOOTER CONTENT*/
-
 #footer-content {
 	width: auto; 
-	margin: 137px 0 0 0;  
+	margin: 37px 0 0 0;  
 	border: 1px transparent black; 
 	min-height: 150px; 
-	background: rgba(0, 0, 0, 0.6); 
+	background: rgba(0, 0, 0, 0.6); 	
 	border-top-left-radius: 18px;
-	border-top-right-radius: 18px; 
+	border-top-right-radius: 18px;
 }
