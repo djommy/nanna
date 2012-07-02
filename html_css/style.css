@@ -129,6 +129,7 @@ div#content {
 }
 
 /* SOCIAL */
+
 h2 {
 	position: absolute; 
 	top: 23px; 
@@ -148,6 +149,8 @@ h2 {
 	width: 22px; 
 	text-indent: -9999px; 
 }	
+
+
 
 #social .facebook:hover {
 	background-position: 0px -22px; 
